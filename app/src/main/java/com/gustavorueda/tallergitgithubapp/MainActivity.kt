@@ -58,6 +58,46 @@ fun pantalla3(modifier: Modifier = Modifier) {
                 .size(200.dp)
                 .clip(CircleShape)
         )
+        Text(
+            text = "Nombre",
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(top = 24.dp, bottom = 4.dp)
+        )
+        Text(
+            text = "Gustavo Rueda",
+            fontSize = 16.sp
+        )
+
+        Text(
+            text = "Edad",
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(top = 16.dp, bottom = 4.dp)
+        )
+        Text(
+            text = "18",
+            fontSize = 16.sp
+        )
+
+        Text(
+            text = "Correo",
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(top = 16.dp, bottom = 4.dp)
+        )
+        Text(
+            text = "grueda165@unab.edu.co",
+            fontSize = 16.sp
+        )
+
+        Text(
+            text = "Ciudad",
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(top = 16.dp, bottom = 4.dp)
+        )
+        Text(
+            text = "Bucaramanga, Colombia",
+            fontSize = 16.sp
+        )
+
     }
 }
 
