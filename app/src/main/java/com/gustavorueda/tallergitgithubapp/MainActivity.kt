@@ -21,6 +21,7 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -96,6 +97,17 @@ fun pantalla3(modifier: Modifier = Modifier) {
         Text(
             text = "Bucaramanga, Colombia",
             fontSize = 16.sp
+        )
+        Text(
+            text = "Sobre mí",
+            fontWeight = FontWeight.Bold,
+            modifier = Modifier.padding(top = 16.dp, bottom = 4.dp)
+        )
+        Text(
+            text = "Soy estudiante de ingeniería de sistemas en la UNAB, voy en cuarto semestre. Me apasiona el desarrollo multimedia para la creación de apps móviles y tengo también un gran interés en la ciberseguridad.",
+            fontSize = 16.sp,
+            textAlign = TextAlign.Center,
+            modifier = Modifier.padding(horizontal = 24.dp)
         )
 
     }
